@@ -112,3 +112,6 @@ public class HotelController {
 
 通过使用Spring Data Cassandra中的响应式支持，整个Web到服务到后端设置都是响应式的，特别针对本文的关注点，非常直观易见。
 
+简单地尝试这篇文章后面的代码可能会更易于理解，你可以在我的[GitHub仓库](https://github.com/bijukunjummen/sample-webflux-annot-cassandra)中获得这些代码。
+
+
