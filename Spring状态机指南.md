@@ -5,20 +5,21 @@
 2. Maven Dependency
 
 首先增加Maven依赖
-...
+
+'''
 <dependency>
     <groupId>org.springframework.statemachine</groupId>
     <artifactId>spring-statemachine-core</artifactId>
     <version>1.2.3.RELEASE</version>
 </dependency>
-...
+'''
 
 最新版本在[这儿]（https://search.maven.org/）
 
 3.状态机设置
 
 首先我们定义一个简单状态机
-...java
+'''java
 @Configuration
 @EnableStateMachine
 public class SimpleStateMachineConfiguration 
@@ -50,7 +51,7 @@ public class SimpleStateMachineConfiguration
           .source("S2").target("SF").event("end");
     }
 }
-...
+'''
 
 请注意，此类注释为传统的Spring配置以及状态机。 它还需要扩展StateMachineConfigurerAdapter，以便可以调用各种初始化方法。 在其中一种配置方法中，我们定义状态机的所有可能状态，另一种是事件如何改变当前状态。
 
