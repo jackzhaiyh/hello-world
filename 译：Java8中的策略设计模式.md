@@ -1,6 +1,6 @@
 # Java8中的策略设计模式
 
-原文链接：https://www.baeldung.com/java-state-design-pattern
+原文链接：https://www.baeldung.com/java-strategy-pattern
 
 作者：[baeldung](https://www.baeldung.com/author/baeldung/)
 
